@@ -1,0 +1,299 @@
+1. Which of these class is superclass of String and StringBuffer class?
+a) java.util
+b) java.lang
+c) ArrayList
+d) None of the mentioned
+Ans- b)
+
+
+
+2. Which of these method of class String is used to extract a single character from a String object?
+a) CHARAT()
+b) chatat()
+c) charAt()
+d) ChatAt()
+Ans- c)
+
+
+
+3. What is the output of this program?
+        class String_demo 
+        {
+            public static void main(String args[])
+            {
+                char chars[] = {'a', 'b', 'c'};
+                String s = new String(chars);
+                String s1 = "abcd";
+                int len1 = s1.length();
+                int len2 = s.length();
+                System.out.println(len1 + " " + len2);
+            }
+       }
+a) 3 0
+b) 0 3
+c) 3 4
+d) 4 3
+Ans- d)
+
+
+
+4. What is the output of this program?
+
+       class A 
+       {
+            int i;
+    	int j;
+            A() 
+            {
+                i = 1;
+                j = 2;
+            }
+       }
+       class Output 
+       {
+            public static void main(String args[])
+            {
+                 A obj1 = new A();
+    	     System.out.print(obj1.toString());
+            }
+a) True
+b) False
+c) String associated with obj1
+d) Compilation Error
+Ans- c)
+
+
+
+5. Which of these methods is an alternative to getChars() that stores the characters in an array of bytes?
+a) getBytes()
+b) GetByte()
+c) giveByte()
+d) Give Bytes()
+Ans- a)
+
+
+
+6. In below code, what can directly access and change the value of the variable name?
+
+package test;
+class Target 
+{
+ public String name = "hello";
+}
+a) any class
+b) only the Target class
+c) any class in the test package
+d) any class that extends Target
+Ans- c)
+
+
+
+7. Which of these methods can be used to convert all characters in a String into a character array?
+a) charAt()
+b) both getChars() & charAt()
+c) both toCharArray() & getChars()
+d) all of the mentioned
+Ans- c)
+
+
+
+8. What is the output of this program?
+
+class output 
+{
+	public static void main(String args[])
+	{
+        	char c[]={'a', '1', 'b' ,' ' ,'A' , '0'};
+                for (int i = 0; i < 5; ++i)
+                {
+                       if(Character.isDigit(c[i]))
+                           System.out.println(c[i]+" is a digit");
+                       if(Character.isWhitespace(c[i]))
+                           System.out.println(c[i]+" is a Whitespace character");
+                       if(Character.isUpperCase(c[i]))
+                           System.out.println(c[i]+" is an Upper case Letter");
+                       if(Character.isLowerCase(c[i]))
+                           System.out.println(c[i]+" is a lower case Letter");
+                   i=i+3;
+                }
+           }
+        }
+a) a is a lower case Letter
+is White space character
+b) b is a lower case Letter
+is White space character
+c) a is a lower case Letter
+A is a upper case Letter
+d) a is a lower case Letter
+0 is a digit
+
+Ans- c)
+
+
+
+9. Which of these methods is used to compare a specific region inside a string with another specific region in another string?
+a) regionMatch()
+b) match()
+c) RegionMatches()
+d) regionMatches()
+Ans- d)
+
+
+
+10.What is the output of this program?
+
+        class output 
+        {
+            public static void main(String args[])
+            { 
+               String s1 = "Hello i love java";
+               String s2 = new String(s1);
+               System.out.println((s1 == s2) + " " + s1.equals(s2));
+            }
+        }
+a) true true
+b) false false
+c) true false
+d) false true
+Ans- d)
+
+
+
+11. In the below code, which code fragment should be inserted at line 3 so that the output will be: “123abc 123abc”?
+
+  StringBuilder sb1 = new StringBuilder("123");
+  String s1 = "123";
+   // insert code here
+  System.out.println(sb1 + " " + s1);
+
+a) sb1.append(“abc”); s1.append(“abc”);
+b) sb1.append(“abc”); s1.concat(“abc”);
+c) sb1.concat(“abc”); s1.append(“abc”);
+d) sb1.append(“abc”); s1 = s1.concat(“abc”);
+Ans- d)
+
+
+
+12. What is the output of this program?
+        class output 
+        {
+            public static void main(String args[])
+            {
+                 String chars[] = {"a", "b", "c", "a", "c"};
+                 for (int i = 0; i < chars.length; ++i)
+                     for (int j = i + 1; j < chars.length; ++j)
+                         if(chars[i].compareTo(chars[j]) == 0)
+                             System.out.print(chars[j]); 
+            }
+       }
+
+a) ab
+b) bc
+c) ca
+d) ac
+Ans- d)
+
+
+13. Which of these method of class String is used to remove leading and trailing whitespaces?
+a) startsWith()
+b) trim()
+c) Trim()
+d) doTrim()
+Ans- b)
+
+
+14. What is the output of this program?
+        class output 
+        {
+           public static void main(String args[])
+            { 
+               String c = "  Hello World  ";
+               String s = c.trim();
+               System.out.println("\""+s+"\"");
+            }
+        }
+
+a) “”Hello World””
+b) “”Hello World”
+c) “Hello World”
+d) Hello world
+Ans- c)
+
+
+15. Which of these method of class StringBuffer is used to concatenate the string representation to the end of invoking string?
+a) concat()
+b) append()
+c) join()
+d) concatenate()
+Ans- b)
+
+
+16. What is the output of this program?
+        class output 
+        {
+            public static void main(String args[])
+            { 
+                 StringBuffer c = new StringBuffer("Hello");
+                 StringBuffer c1 = new StringBuffer(" World");
+                 c.append(c1);
+                 System.out.println(c);
+            }
+        }
+
+a) Hello
+b) World
+c) Helloworld
+d) Hello World
+Ans- d)
+
+
+17. What is the output of this program?
+      class output 
+      {  
+          public static void main(String args[]) 
+          {  
+              StringBuffer sb=new StringBuffer("Hello");  
+              sb.replace(1,3,"Java");  
+              System.out.println(sb);
+          }  
+      }
+
+a) Hello java
+b) Hellojava
+c) HJavalo
+d) Hjava
+Ans- c)
+
+
+18.What is the output of this program?
+        class output 
+        {
+            public static void main(String args[])
+            {
+               StringBuffer s1 = new StringBuffer("Hello World");
+               s1.insert(6 , "Good ");
+               System.out.println(s1);
+            }
+       }
+
+a) HelloGoodWorld
+b) HellGoodoWorld
+c) HellGood oWorld
+d) Hello Good World
+Ans- d)
+
+
+19. Which of these classes is not included in java.lang?
+a) Byte
+b) Integer
+c) Array
+d) Class
+Ans- c)
+
+
+20. Which of these is a process of converting a simple data type into a class?
+a) type wrapping
+b) type conversion
+c) type casting
+d) none of the Mentioned.
+Ans- a)

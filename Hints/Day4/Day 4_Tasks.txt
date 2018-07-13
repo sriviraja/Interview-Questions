@@ -1,0 +1,69 @@
+Day 4 Task
+1.Write a program to count no. of vowels are there in given string.
+	Sample input and output:
+	Enter String :Suresh
+	Suresh has 2 no. of Vowels.
+2. write a program to count the values of given string's letters by using the following values.
+a b c d e f ...... x  y   z
+1 2 3 4 5 6 ...... 24 25 26
+	Sample input and output 
+	Enter String : ATTITUDE
+	Result is 100
+3.Removing a particular character from a String.
+	Sample input and output
+	Enter String:Welcomes to 3Edge Solutions
+	Enter character to remove :s
+	Result String is Welcome to 3Edge Solutions
+      Note : need to remove only first 's' 
+4. Write a program to  display only consonants of given String.
+	Sample I/O
+	Enter String : Honesty is a key of Success
+	Result is    : Hnsty s  ky f Sccss 	 
+5. Write a program to replace a vowels by nextletter and consonants by previous letter.
+	Sample I/O
+	Enter String : apple
+	Result       : bookf
+6. Write a java program to find the duplicate words and their number of occurrences in a string?
+Sample I/O
+	Enter String: Welcome to World and Welcome to Chennai and Welcome to 3edge
+	Result :
+	welcome  : 3 Times
+	to       : 3 Times
+	and      : 2 Times
+
+
+
+6. Love Calculator
+	Enter Ur Name : SriHarsha
+	Partner Name  : XXX
+	Result : 78%  (Random)  51 and 100
+
+7. Flames
+
+	Enter Name :  Xyz
+	Enter Partner Name :yzb
+
+	
+	F L A M  E  S
+
+
+8. Death Date
+		
+
+9. Write a program to display no.of years and no. of months and no. of dates completed from your date of birth to today.
+
+Sample I/O
+	Enter your Date Of Birth : 10-jan-1990
+	Your age is : 26 years, 8 months, and 6 days
+
+10. Write a program to findout the given string is palindrome or not
+
+11. Write a java program to find the duplicate words and their number of occurrences in a string?
+Sample I/O
+	Enter String: Welcome to World and Welcome to Chennai and Welcome to 3edge
+	Result :
+	welcome  : 3 Times
+	to       : 3 Times
+	and      : 2 Times
+
+	

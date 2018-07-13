@@ -1,0 +1,3 @@
+japan  => ja 		JP	=> Ohayogozaimasu
+korian => ko		KP 	=> joh-eun achim
+United => en		US	=> Good Morning

@@ -1,0 +1,54 @@
+Throwable
+	Exception
+		Checked Exception (Compile Tile Exception)
+			IOException
+			SQLException
+		Unchecked Exception
+			RunTimeException
+				ArithmeticException
+				InputMismatchException
+				ArrayIndexNotBoundsException
+		
+		
+	Error
+
+Exception is a event,raised while program execution and which disturbs the normal execution flow.
+
+Process what will follow to handle the exception is called as Exception Handling.
+
+3Blocks;
+a)try block
+b)catch block
+c)finally block
+
+try block will contain set of statement, which are going to raise the exception.
+If the excetion raised from the try block,one object created for the type of exception class. And reference of that object is throw to the catch block.
+
+catch block will hold the reference of an exception class object which is thrown from the try block.
+
+
+try
+{
+//set of statements
+}
+
+catch(Exception_Class_Type var)
+{
+//Statement to display Error Messages
+}
+
+finally
+{
+//Statement to display final message or closing resources
+}
+
+Demos:
+try with catch
+try with catch,catch
+try with catch(1,2)
+try with catch and finally
+try with finally
+
+Exception type of exception
+
+

@@ -1,0 +1,95 @@
+Encapsulation:
+	Bind the data.
+
+Tightly Encapsulated Class:
+	Bind the data tightly.
+	The class contain only private members - called as Tightly Encapsulated
+Project Level => Java Bean / Value Object / Business Object / Data Transaction Object   Class
+	It contains private properties and public setter and getter methods.
+	public EmpBean
+	{
+	private int eid;
+	private String ename;
+	//Setters are used  to set the values to properties.
+ 
+	public void setEid(int eid)
+	{
+	this.eid=eid;
+	}
+	public void setEname(String ename)
+	{
+	this.ename=ename;	
+	}
+	//Getters are used to get the values from properties
+	public int getEid()
+	{
+	return eid;
+	}
+	public String getEname()
+	{
+	return ename;	
+	}
+
+	}
+
+class TestClient
+{
+public static void main(String[] args)
+{
+EmpBean eb1 = new EmpBean();
+eb1.setEid(111);
+eb1.setEname("Ravi");
+
+int eid = ebi.getEid();
+System.out.println(eid);
+
+int ename = ebi.getEname();
+System.out.println(ename);
+
+}
+}
+
+
+Normal Class:
+	Contains only normal Methods(Concreate Classes)
+Abstract Class:
+	May contains  Abstract method/may not contains Abstract Methods
+Parent Class:
+	Class who is providing the properties, parent class.
+
+Child Class:
+	
+Java Bean Class:
+	providing properties and getters and setters.
+
+Adapter Class:
+	
+Public Class:
+	Source name and class name is same.
+
+Default Class:
+
+Tightly Encapsulated Class:
+	The class contain private properties,
+
+Implementation Class:
+	Class, which is implement from other interface.
+
+Final Class:
+
+Immutable Class:
+	The class object will not allow for modification.
+
+Mutable Class:
+	Will allows modification.
+
+Strictfp Class:
+
+Singleton Class:
+	Allows to create a single object
+
+
+
+
+
+
