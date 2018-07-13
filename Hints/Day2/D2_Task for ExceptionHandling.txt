@@ -1,4 +1,0 @@
-Accept a number and find the square. But number greater than 100 is not allowed.
-
-
-Create a MinBalanceException class, it's should be minimum of balance is 1000.
